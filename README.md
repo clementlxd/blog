@@ -1,6 +1,4 @@
-# blog
-
-Linux命令行使用教程
+# Linux命令行使用教程
 
 当大家在学习编程之前，基本都没有使用过命令行操作电脑。因为Windows和Mac非常易用方便，完全没有必要使用命令行。但是当开始学习编程，并计划把编程作为自己的职业后，不可避免的就会有越来越多的机会使用命令行。
 
@@ -52,7 +50,7 @@ pwd
 mv new.txt ./newtask
 此处命令中newtask前面的 . 表示当前目录，如果不加./ 文件将无法移到newtask文件夹中。
 
-10.把newtask中的new.txt移动到newtask1中：
+10. 把newtask中的new.txt移动到newtask1中：
 mv ./newtask/new.txt ./newtask1    或者用绝对路径：
 mv /c/users/clement/desktop/newtask/new.txt  /c/users/clement/desktop/newtask    (clement是当前电脑的用户名)
 
